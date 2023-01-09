@@ -11,7 +11,7 @@ docker build -t <tag name> .
 docker run -t <tag name> pytest
 ```
 
-# Start the app with the default port 5000
+# Start the app with the default port 8000
 ```
-docker run -p 127.0.0.1:5000:5000/tcp -t <tag name>
+docker run -p 127.0.0.1:8000:8000/tcp -t <tag name>
 ```
